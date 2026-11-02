@@ -146,7 +146,7 @@
     [['twitter:title', m.title], ['twitter:description', m.description]].forEach(function (a) { var e = document.querySelector('meta[name="' + a[0] + '"]'); if (e) e.content = a[1]; });
     var ol = document.querySelector('meta[property="og:locale"]'); if (ol) ol.content = L === 'ar' ? 'ar_AR' : 'en_US';
     root.textContent = '';
-    root.appendChild(el('a', { 'class': 'skip', href: '#main', text: X.skip }));
+    root.appendChild(el('a', { 'class': 'skip', href: location.pathname + location.search + '#main', text: X.skip }));
     root.appendChild(header());
     var main = el('main', { id: 'main', tabindex: '-1' }, R[page]());
     root.appendChild(main); root.appendChild(footer());

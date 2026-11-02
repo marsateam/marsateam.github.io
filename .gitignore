@@ -1,0 +1,16 @@
+# Builder / internal files: never public
+site_build.py
+decisions-left-out.json
+README-site.html
+# Footage and secrets: never public
+*.mp4
+*.mov
+*.mkv
+.env
+.env.*
+.dev.vars
+*.pem
+*.key
+node_modules/
+.DS_Store
+Thumbs.db

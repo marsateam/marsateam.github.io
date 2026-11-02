@@ -62,7 +62,7 @@
     return [
       el('section', { 'class': 'hero' }, [el('div', { 'class': 'wrap' }, [el('div', { 'class': 'grid' }, [
         el('div', {}, [el('h1', { text: p.hero.title }), el('p', { 'class': 'lead', text: p.hero.sub }),
-          el('div', { 'class': 'row' }, [el('a', { 'class': 'btn', href: href('videos.html'), text: p.cta.primary }), el('a', { 'class': 'btn ghost', href: S_.instagram, rel: 'noopener', text: p.cta.secondary })])]),
+          el('div', { 'class': 'row' }, [el('a', { 'class': 'btn', href: href('videos.html'), text: p.cta.primary }), el('a', { 'class': 'btn ghost', href: S_.instagram, rel: 'noopener', text: p.cta.secondary + ' · Instagram' }), el('a', { 'class': 'btn ghost', href: S_.tiktok, rel: 'noopener', text: p.cta.secondary + ' · TikTok' })])]),
         el('div', { style: 'max-width:300px' }, [poster(4, true)])])])]),
       sec([el('p', { 'class': 'kicker', text: X.latest }), strip, el('p', { style: 'margin-top:var(--s4)' }, [el('a', { href: href('videos.html'), text: X.all_videos })])]),
       sec([el('ol', { 'class': 'rows' }, p.blocks.map(function (b) { return el('li', {}, [el('div', {}, [el('h3', { text: b.title }), el('p', { text: b.text })])]); }))]),

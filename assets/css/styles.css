@@ -47,6 +47,7 @@ nav a[aria-current=page]{border-color:var(--accent)}
 @media (min-width:900px){nav{order:0;width:auto}.top .wrap{flex-wrap:nowrap}}
 .tbtn{font:inherit;font-size:var(--fs-0);font-weight:700;min-width:44px;min-height:44px;padding:0 12px;background:transparent;color:var(--ink);border:1px solid var(--line);border-radius:var(--r);cursor:pointer}
 .tbtn:hover{border-color:var(--muted)}
+a.tbtn{display:inline-flex;align-items:center;justify-content:center;text-decoration:none}
 /* buttons */
 .btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 24px;font:inherit;font-weight:800;font-size:var(--fs-1);text-decoration:none;border:2px solid var(--btn-bg);background:var(--btn-bg);color:var(--btn-ink);border-radius:var(--r);cursor:pointer}
 .btn:hover{filter:brightness(1.08)}

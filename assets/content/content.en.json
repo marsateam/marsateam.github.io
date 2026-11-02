@@ -32,7 +32,9 @@
   "videos": "Videos",
   "support": "Support",
   "contact": "Contact",
-  "faq": "FAQ"
+  "faq": "FAQ",
+  "privacy": "Privacy",
+  "terms": "Terms"
  },
  "pages": {
   "home": {
@@ -260,6 +262,86 @@
     "text": "We are a small team, and power and internet sometimes go down on our side. We reply within 24 hours for now, and if we are late, we apologise in advance."
    },
    "what_to_send": "In your message, tell us who you are, what kind of partnership you have in mind, and what you expect from us."
+  },
+  "privacy": {
+   "meta": {
+    "title": "Privacy policy | Marsa Team",
+    "description": "What this site collects (nothing), what stays on your device, how we treat faces and children, and how to ask us to remove a clip."
+   },
+   "title": "Privacy policy",
+   "intro": "This is the team's own policy, written in plain words. It is not legal advice. Last updated: November 2026.",
+   "sections": [
+    {
+     "title": "What we collect",
+     "text": "We do not collect personal data from visitors. There are no accounts, no forms, no analytics, no tracking and no cookies."
+    },
+    {
+     "title": "What stays on your device",
+     "text": "Your browser keeps only your light or dark theme choice, so the site remembers it next time. It stays on your device, never reaches us, and you can clear it from your browser settings."
+    },
+    {
+     "title": "Hosting",
+     "text": "The site is hosted on GitHub Pages. GitHub may log your IP address when you visit, under its own policy. We do not use these logs."
+    },
+    {
+     "title": "Links to other sites",
+     "text": "The links to Instagram, TikTok, Facebook and WhatsApp open other services, which run under their own policies."
+    },
+    {
+     "title": "If you write to us",
+     "text": "If you email us or send a direct message, we use your address and message only to reply to you. We do not sell or share them."
+    },
+    {
+     "title": "Children and faces",
+     "text": "We document people with dignity and respect their privacy, and we seek the parents' consent whenever possible. If you do not want to appear in any clip, write to us and we will delete it immediately. The site itself does not collect data from anyone, children included."
+    },
+    {
+     "title": "Removal and correction requests",
+     "text": "Email marsa.team1@gmail.com with the video link or a description of the clip. We try to reply within 24 hours, God willing."
+    }
+   ]
+  },
+  "terms": {
+   "meta": {
+    "title": "Terms and disclaimer | Marsa Team",
+    "description": "Terms for using the Marsa Team site: rights, accuracy, no donations collected, and how to ask for a clip to be removed or report an infringement."
+   },
+   "title": "Terms and disclaimer",
+   "intro": "This is the team's own policy, written in plain words. It is not legal advice. Last updated: November 2026.",
+   "sections": [
+    {
+     "title": "What this site is",
+     "text": "An introduction to Marsa Team, a small volunteer team from northern Gaza. We sell nothing through the site and accept no payments. We are currently working on licensing the team."
+    },
+    {
+     "title": "Rights and reuse",
+     "text": "All rights reserved to the team; to use our material, please contact us. If you share one of our videos, share the original link instead of re-uploading it, and credit \"Marsa Team\"."
+    },
+    {
+     "title": "Accuracy and disclaimer",
+     "text": "The information here is for awareness and may change as the situation changes. We write what we saw ourselves, we attribute what we did not see to whoever said it, and if we are wrong we correct it in public. Please check the sources we cite before relying on them."
+    },
+    {
+     "title": "Independence",
+     "text": "We do not belong to any political party or group. We are a small civilian team aiming for documentation and accurate information."
+    },
+    {
+     "title": "No donations through the site",
+     "text": "We do not collect donations through this site, and it has no link, account or number for sending money. If anyone asks for money in our name, it is not us: please tell us by email."
+    },
+    {
+     "title": "External links",
+     "text": "The site may link to other sites whose content and policies we do not control."
+    },
+    {
+     "title": "Removal requests and infringement reports",
+     "text": "To ask us to remove a clip, correct information, or report a copyright infringement, email marsa.team1@gmail.com with the video link and a description of your request. We try to reply within 24 hours, God willing."
+    },
+    {
+     "title": "Updating this page",
+     "text": "We may change this page and the privacy page as our work changes. The last-updated date is shown at the top of each."
+    }
+   ]
   }
  },
  "footer": {

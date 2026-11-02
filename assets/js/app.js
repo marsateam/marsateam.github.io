@@ -1,7 +1,8 @@
 /* Marsa Team site: renders every page from assets/content/content.{ar,en}.json (fetch),
-   falling back to the same JSON inlined in the page (works from file://). No cookies, no tracking. */
+   falling back to the same JSON inlined in the page (works from file://). No cookies, no tracking.
+   Each page has ONE fixed language (html lang): Arabic pages at /, English pages under /en/. */
 (function () {
-  var d = document.documentElement, page = document.body.dataset.page, C = {}, L = 'ar', root;
+  var d = document.documentElement, page = document.body.dataset.page, C = {}, L = d.lang === 'en' ? 'en' : 'ar', P = L === 'en' ? '../' : '', root;
   function S(k, v) { try { if (v === undefined) return localStorage.getItem(k); localStorage.setItem(k, v); } catch (e) {} }
   function el(tag, attrs, kids) {
     var n = document.createElement(tag);
@@ -10,10 +11,11 @@
     return n;
   }
   function t(s) { return document.createTextNode(s); }
-  function href(p) { return L === 'en' ? p + '?lang=en' : p; }
+  function href(p) { return p; }
+  function sibling() { return (L === 'ar' ? 'en/' : '../') + (PAGEFILE[page] || 'index.html'); }
   var T, X, U;
   var NAV = [['home', 'index.html'], ['story', 'story.html'], ['work', 'work.html'], ['videos', 'videos.html'], ['support', 'support.html'], ['faq', 'faq.html'], ['contact', 'contact.html']];
-  var PAGEFILE = { index: 'index.html', story: 'story.html', work: 'work.html', videos: 'videos.html', support: 'support.html', faq: 'faq.html', contact: 'contact.html' };
+  var PAGEFILE = { index: 'index.html', story: 'story.html', work: 'work.html', videos: 'videos.html', support: 'support.html', faq: 'faq.html', contact: 'contact.html', privacy: 'privacy.html', terms: 'terms.html' };
 
   function header() {
     var cur = PAGEFILE[page];
@@ -22,18 +24,19 @@
       if (n[1] === cur) a.setAttribute('aria-current', 'page');
       return a;
     }));
-    var lb = el('button', { 'class': 'tbtn', id: 'langBtn', type: 'button', lang: L === 'ar' ? 'en' : 'ar', text: U.language });
+    var other = L === 'ar' ? 'en' : 'ar';
+    var lb = el('a', { 'class': 'tbtn', id: 'langBtn', href: sibling(), lang: other, hreflang: other, text: U.language });
     var tb = el('button', { 'class': 'tbtn', id: 'themeBtn', type: 'button', text: X.theme, 'aria-pressed': isDark() ? 'true' : 'false' });
     return el('header', { 'class': 'top' }, [el('div', { 'class': 'wrap' }, [
       el('a', { 'class': 'brand', href: href('index.html') }, [
-        el('span', { 'class': 'tile' }, [el('img', { src: 'assets/img/icon-256.png', alt: '', width: 40, height: 40 })]),
+        el('span', { 'class': 'tile' }, [el('img', { src: P + 'assets/img/icon-256.png', alt: '', width: 40, height: 40 })]),
         el('span', {}, [el('span', { text: T.site.name }), el('small', { text: T.site.tagline.split(/[.،]/)[0] })])]),
       nav, el('div', { 'class': 'tools' }, [tb, lb])])]);
   }
   function footer() {
-    var links = ['videos', 'support', 'faq', 'contact'].map(function (k) { return el('a', { href: href(k + '.html'), text: T.nav[k] }); });
+    var links = ['videos', 'support', 'faq', 'contact', 'privacy', 'terms'].map(function (k) { return el('a', { href: href(k + '.html'), text: T.nav[k] }); });
     return el('footer', {}, [el('div', { 'class': 'wrap' }, [
-      el('div', { 'class': 'lockup' }, [el('span', { 'class': 'logo-tile' }, [el('img', { src: 'assets/img/logo_lockup_' + L + '.svg', alt: T.site.name + ' | ' + T.site.name_en })])]),
+      el('div', { 'class': 'lockup' }, [el('span', { 'class': 'logo-tile' }, [el('img', { src: P + 'assets/img/logo_lockup_' + L + '.svg', alt: T.site.name + ' | ' + T.site.name_en })])]),
       el('div', {}, [el('p', { text: T.footer.line }), el('p', { text: T.site.tagline }), el('p', { text: T.footer.disclaimer + ' · ' + T.footer.since })]),
       el('div', { 'class': 'links' }, links)])]);
   }
@@ -49,7 +52,7 @@
   }
   function poster(i, eager, ratio) {
     var v = X.videos[i], it = T.pages.videos.items[i];
-    return el('div', { 'class': 'poster', style: ratio ? 'aspect-ratio:' + ratio : (v.w / v.h > 0.6 ? 'aspect-ratio:' + v.w + '/' + v.h : null) }, [el('img', { src: 'assets/img/' + v.cover, alt: it.alt, width: v.w, height: v.h, loading: eager ? 'eager' : 'lazy' })]);
+    return el('div', { 'class': 'poster', style: ratio ? 'aspect-ratio:' + ratio : (v.w / v.h > 0.6 ? 'aspect-ratio:' + v.w + '/' + v.h : null) }, [el('img', { src: P + 'assets/img/' + v.cover, alt: it.alt, width: v.w, height: v.h, loading: eager ? 'eager' : 'lazy' })]);
   }
 
   function published(n) { return X.videos.map(function (v, i) { return i; }).filter(function (i) { return X.videos[i].platforms.length; }).reverse().slice(0, n); }
@@ -130,6 +133,11 @@
     return [hero(null, p.title, null), sec([el('ol', { 'class': 'rows' }, p.items.map(function (i) {
       return el('li', {}, [el('div', {}, [el('h2', { 'class': 'q', text: i.q }), el('p', { text: i.a })])]); }))], 1)];
   };
+  R.privacy = R.terms = function () {
+    var p = T.pages[page];
+    return [hero(null, p.title, p.intro), sec([el('ol', { 'class': 'rows' }, p.sections.map(function (i) {
+      return el('li', {}, [el('div', {}, [el('h2', { 'class': 'q', text: i.title }), el('p', { text: i.text })])]); }))], 1)];
+  };
   R['404'] = function () {
     return [el('section', { 'class': 'nf' }, [el('div', { 'class': 'wrap' }, [el('h1', { text: X.nf_title }), el('p', { 'class': 'lead', text: X.nf_text }), el('a', { 'class': 'btn', href: href('index.html'), text: T.nav.home })])])];
   };
@@ -150,29 +158,20 @@
     root.appendChild(header());
     var main = el('main', { id: 'main', tabindex: '-1' }, R[page]());
     root.appendChild(main); root.appendChild(footer());
-    document.getElementById('langBtn').onclick = function () { setLang(L === 'ar' ? 'en' : 'ar'); };
     document.getElementById('themeBtn').onclick = function () {
       var n = isDark() ? 'light' : 'dark'; d.dataset.theme = n; S('mtheme', n); this.setAttribute('aria-pressed', n === 'dark' ? 'true' : 'false'); };
   }
-  function setLang(l) {
-    L = l; S('mlang', l);
-    try { var u = new URL(location.href); u.searchParams.set('lang', l); history.replaceState(null, '', u); } catch (e) {}
-    render();
-    var b = document.getElementById('langBtn'); if (b) b.focus();
-  }
-
   function load() {
     var inline = JSON.parse(document.getElementById('content-inline').textContent);
-    return Promise.all(['ar', 'en'].map(function (l) {
-      return fetch('assets/content/content.' + l + '.json').then(function (r) { if (!r.ok) throw 0; return r.json(); }).catch(function () { return inline[l]; });
-    })).then(function (a) { C.ar = a[0]; C.en = a[1]; });
+    return fetch(P + 'assets/content/content.' + L + '.json').then(function (r) { if (!r.ok) throw 0; return r.json(); }).catch(function () { return inline[L]; })
+      .then(function (j) { C[L] = j; });
   }
   var th = S('mtheme'); if (th) d.dataset.theme = th;
   document.addEventListener('DOMContentLoaded', function () {
     root = document.getElementById('app');
-    var q = location.search.match(/[?&]lang=(ar|en)/), tq = location.search.match(/[?&]theme=(light|dark)/);
+    var tq = location.search.match(/[?&]theme=(light|dark)/);
     if (tq) d.dataset.theme = tq[1];
-    L = q ? q[1] : (S('mlang') || 'ar');
+    if (L === 'ar' && /[?&]lang=en/.test(location.search)) { location.replace(sibling()); return; }  // old ?lang=en links
     load().then(render);
   });
 })();

@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://marsateam.github.io/marsa-team/sitemap.xml
+Sitemap: https://marsateam.github.io/sitemap.xml

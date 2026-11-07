@@ -34,13 +34,16 @@
   "contact": "Contact",
   "faq": "FAQ",
   "privacy": "Privacy",
-  "terms": "Terms"
+  "terms": "Terms",
+  "join": "Join us",
+  "trust": "Trust and corrections",
+  "press": "Press"
  },
  "pages": {
   "home": {
    "meta": {
     "title": "Marsa Team | Short videos from northern Gaza",
-    "description": "A small volunteer team from northern Gaza documenting water, roads and aid in short videos. We are currently working on licensing the team."
+    "description": "A small volunteer team from northern Gaza documenting daily life in Gaza, including Gaza children and families: water, roads and aid, in short videos. Currently working on licensing the team."
    },
    "hero": {
     "title": "From northern Gaza, we document daily life as it is",
@@ -49,7 +52,7 @@
    "blocks": [
     {
      "title": "We document",
-     "text": "We film what we see in our own days: the road to water, the queue, the rubble. No staging, no exaggeration."
+     "text": "We film what we see in our daily life: the road to water, the queue, the rubble. No staging, no exaggeration."
     },
     {
      "title": "We verify",
@@ -57,14 +60,15 @@
     },
     {
      "title": "We respect",
-     "text": "People's dignity comes before the camera. We do not exploit pain. We ask only that you know, and share."
+     "text": "People's dignity comes before the camera. We do not exploit pain or plead for sympathy. We want you to know, and to share if you see fit."
     }
    ],
    "cta": {
     "text": "Start with the videos. If our voice reaches you, follow us.",
     "primary": "Watch the videos",
     "secondary": "Follow us"
-   }
+   },
+   "trust_line": "A small, young volunteer team · Currently working on licensing the team · No tracking, no cookies"
   },
   "story": {
    "meta": {
@@ -83,7 +87,7 @@
    },
    "honest": {
     "title": "A plain word",
-    "text": "We are a small volunteer team, and we are currently working on licensing the team. We say so from the start because trust begins with honesty."
+    "text": "We are a small, young volunteer team. We are currently working on licensing the team. We say so from the start because trust begins with honesty."
    },
    "principles_title": "How we work",
    "principles": [
@@ -97,7 +101,7 @@
     },
     {
      "title": "Sources",
-     "text": "Every number has a body and a date. With no source, we do not publish the number."
+     "text": "We aim to give every number a named source and a date. With no source, we do not publish the number."
     },
     {
      "title": "Consent",
@@ -108,7 +112,7 @@
   "work": {
    "meta": {
     "title": "What we do | Marsa Team",
-    "description": "Field documentation, water awareness, fact-checking, and partnerships with registered bodies. This is what Marsa Team, from northern Gaza, works on."
+    "description": "Field documentation, water awareness, fact-checking, and partnerships with established organizations. This is what Marsa Team, from northern Gaza, works on."
    },
    "title": "What we do",
    "intro": "Four areas, and we grow in them step by step.",
@@ -119,82 +123,107 @@
     },
     {
      "title": "Water awareness",
-     "text": "Water is the first thing people here ask about. We film the road to it and what it costs people's lives."
+     "text": "Water is the first thing people here ask about. We film the road to it and the effort and time it demands."
     },
     {
      "title": "Sourcing and fact-checking",
-     "text": "We check every claim before posting and cite the source in the caption. If a fact changes, we correct it in public."
+     "text": "We aim to check every claim before posting and cite the source in the caption where we have one. If a fact changes, we correct it in public."
     },
     {
      "title": "Partnerships",
-     "text": "We look for registered organizations and partners who can guide us and work with us transparently. We do not promise what we cannot deliver."
+     "text": "We look for established organizations and partners who can guide us and work with us transparently. We do not promise what we cannot deliver."
     }
    ]
   },
   "videos": {
    "meta": {
-    "title": "Videos | Marsa Team",
-    "description": "Short videos from Gaza about water, flour, aid and rubble. Follow us on our platforms."
+    "title": "Videos of daily life in Gaza | Marsa Team",
+    "description": "Short videos of daily life in Gaza about water, flour, aid and rubble. Follow us on our platforms."
    },
-   "title": "Videos",
+   "title": "Videos of daily life in Gaza",
    "intro": "Five videos published so far, and two more are on the way.",
    "items": [
     {
-     "title": "Water & the road",
-     "alt": "Still from the video: people at water jugs on a street, faces blurred.",
-     "date": "~20 Oct 2026"
+     "title": "The road to water",
+     "alt": "Still from the video: a plastic water jerrycan on paving stones, no people.",
+     "date": "Around 20 Oct 2026",
+     "desc": "A short video about people's daily trip to get water in northern Gaza."
     },
     {
      "title": "Flour disappeared from the market",
      "alt": "Marsa Team logo.",
-     "date": "21 Oct 2026"
+     "date": "21 Oct 2026",
+     "desc": "A short video about flour disappearing from the market in northern Gaza."
     },
     {
      "title": "Aid cuts",
      "alt": "Still from the video: buildings and wires above a busy street.",
-     "date": "24 Oct 2026"
+     "date": "24 Oct 2026",
+     "desc": "A short video about aid cuts and their effect on people in northern Gaza."
     },
     {
      "title": "Bulldozers & rubble",
      "alt": "Still from the video: a bulldozer and a truck among rubble.",
-     "date": "26 Oct 2026"
+     "date": "26 Oct 2026",
+     "desc": "A short video about bulldozers and rubble in northern Gaza."
     },
     {
      "title": "\"This is not just rubble\"",
      "alt": "Still from the video: rubble under a blue sky.",
-     "date": "31 Oct – 1 Nov 2026"
+     "date": "31 Oct – 1 Nov 2026",
+     "desc": "A short video about rubble and what it means to people in northern Gaza."
     },
     {
-     "title": "Water journey",
-     "alt": "Still from the video: a child bending over jerrycans on a cart, face not visible.",
-     "date": "1–2 Nov 2026"
+     "title": "The water journey",
+     "alt": "Still from the video: a street and a coloured water container beside a car, no people.",
+     "date": "1–2 Nov 2026",
+     "desc": "A short video about the daily water trip in northern Gaza."
     },
     {
-     "title": "Winter is coming",
+     "title": "Winter is near",
      "alt": "Still from the video: a pile of wood and a chair beside a tent.",
-     "date": "2 Nov 2026"
+     "date": "2 Nov 2026",
+     "desc": "A short video about people preparing for winter near the tents in northern Gaza."
     }
    ]
   },
   "support": {
    "meta": {
     "title": "Support us | Marsa Team",
-    "description": "Ways to support Marsa Team are being arranged. Meanwhile: follow, share and contact us."
+    "description": "To support Marsa Team or donate, contact us directly by email or WhatsApp and we will reply with the details. Includes an impersonation warning."
    },
    "title": "Support us",
+   "lead": "To support the team or donate, contact us directly by email or WhatsApp, and we will reply with the details.",
    "status": {
-    "title": "Ways to support are being arranged",
-    "text": "Ways to support are being arranged; we will announce them when ready. This site has no link, account or number for sending money. If anyone asks for money in our name, it is not us. Please tell us by email."
+    "title": "How to support us",
+    "text": "To support the team or donate, contact us directly by email or WhatsApp and we will reply with the details. We only communicate through our official channels."
    },
-   "soon": {
-    "title": "What comes next?",
-    "text": "We will announce the details later, here and on our pages."
+   "contact": {
+    "title": "Contact us directly",
+    "text": "Write to us by email or on WhatsApp, and we will reply with the details. We try to reply within 24 hours, God willing."
    },
-   "help_title": "Ways to help without money",
+   "appeal": {
+    "title": "Appeal video",
+    "text": "A short video with an English voiceover and Arabic captions. Your browser does not contact YouTube unless you press play.",
+    "play": "Play the appeal video",
+    "consent": "When played, the player loads from YouTube (Google) and its policy applies.",
+    "external": "Or watch it on YouTube"
+   },
+   "warn": {
+    "title": "Beware of impersonation",
+    "items": [
+     "We only contact you through our official channels: the email marsa.team1@gmail.com, the WhatsApp number shown on this page and on the contact page, and our @marsa_team accounts on Instagram, TikTok and Facebook.",
+     "Before any transfer or support, make sure the message reached you from these channels alone. Any other account, number or link asking for money in our name is not us.",
+     "We never ask for passwords, verification codes or your card details.",
+     "You will not find a bank account or a digital wallet on this site; the details reach you from us directly after you contact us."
+    ],
+    "report": "Got a suspicious message in our name? Do not pay, and email us a screenshot."
+   },
+   "help_title": "How to help without money",
    "help": [
     {
      "title": "Follow us",
-     "text": "Following helps our videos reach more people. We are @marsa_team."
+     "text": "Following helps the videos reach more people. Our account is @marsa_team."
     },
     {
      "title": "Share",
@@ -202,22 +231,218 @@
     },
     {
      "title": "Introduce a partner",
-     "text": "Know a registered organization, a journalist or a lawyer who could guide us? Write to us and we will arrange an introduction."
+     "text": "Know a trusted organization, a journalist or a lawyer who could guide us? Write to us and we will arrange the introduction."
     },
     {
      "title": "Correct us",
      "text": "Found a mistake or a better source? Tell us and we will correct it in public."
     }
+   ]
+  },
+  "join": {
+   "meta": {
+    "title": "Join us | Marsa Team",
+    "description": "For organizations, partners and volunteers, including field volunteers inside Gaza: how to join Marsa Team and how to reach us."
+   },
+   "title": "Join us",
+   "intro": "We look for organizations and people who will work with us transparently and without big promises. We are a volunteer team from northern Gaza, and we are currently working on licensing the team.",
+   "offer_title": "What we offer",
+   "offer": [
+    {
+     "title": "Documentation from the ground",
+     "text": "Short videos from northern Gaza, with Arabic and English captions."
+    },
+    {
+     "title": "Relief areas we document",
+     "text": "Water, bread and flour, aid, rubble and roads, winter and tents, as we see them in our daily life."
+    },
+    {
+     "title": "We share our sources",
+     "text": "If our partner asks, we share the sources we hold for what we publish."
+    },
+    {
+     "title": "Our limits",
+     "text": "We cover only what we can reach, and we promise no coverage on demand, no volume and no speed."
+    }
    ],
-   "reach": {
-    "title": "Want to support us?",
-    "text": "Write to us by email, by direct message on any of our pages, or on WhatsApp."
+   "orgs": {
+    "title": "For organizations and partners",
+    "text": "If you are an established organization or a media outlet and want to cooperate or guide us, write to us with your organization's name and what you propose.",
+    "cta": "Write to us as an organization",
+    "subject": "Partnership with Marsa Team"
+   },
+   "vols": {
+    "title": "For volunteers",
+    "text": "We welcome help in the roles below, including field work inside Gaza. No fee is ever charged to join. We get to know every new volunteer before they start, and we put their safety before any shot.",
+    "roles": [
+     "Field filming inside Gaza",
+     "Arabic and English translation and review",
+     "Fact and source checking",
+     "Caption editing and video editing",
+     "Design and visuals",
+     "Introducing us to organizations and journalists"
+    ],
+    "cta": "Write to us as a volunteer",
+    "subject": "Volunteering with Marsa Team"
+   },
+   "steps_title": "How we get to know each other",
+   "steps": [
+    {
+     "title": "Write to us",
+     "text": "Tell us who you are, what you propose, and what you expect from us."
+    },
+    {
+     "title": "We reply and talk",
+     "text": "We try to reply within 24 hours, God willing, and tell you plainly what we can actually do."
+    },
+    {
+     "title": "We agree in writing",
+     "text": "We put any partnership in writing, and we do not name your organization or show its logo in public without your written consent."
+    }
+   ],
+   "safety": {
+    "title": "Notice",
+    "text": "We never ask any partner or volunteer for money or account details. If anyone does so in our name, it is not us: please tell us by email."
+   },
+   "other": "For other ways to reach us, see the contact page."
+  },
+  "trust": {
+   "meta": {
+    "title": "Trust and corrections | Marsa Team",
+    "description": "How Marsa Team works: our official channels, how we write what we publish, how to report a mistake, and the corrections log."
+   },
+   "title": "How we work and correct",
+   "intro": "We are a small, young volunteer team, and we are currently working on licensing the team. This page explains how we work and what we do when we are wrong.",
+   "official_title": "Our official channels",
+   "official_text": "This site, our email marsa.team1@gmail.com, WhatsApp (the number is on the Support and Contact pages), and our @marsa_team accounts. Any other account, number or link in our name is not us.",
+   "verify_title": "How we write what we publish",
+   "verify": [
+    {
+     "title": "What we saw ourselves",
+     "text": "We film and write it as we saw it, and say it is our local observation."
+    },
+    {
+     "title": "What we did not see",
+     "text": "We attribute it to whoever said it, and we do not write it as confirmed fact."
+    },
+    {
+     "title": "Numbers",
+     "text": "We aim to give every number a named source and a date. If we find no source, we do not publish the number."
+    }
+   ],
+   "corr_title": "Corrections",
+   "corr_text": "We may get things wrong, and when we do we correct in public.",
+   "corr": [
+    {
+     "title": "How to report",
+     "text": "Email marsa.team1@gmail.com with the video link, what you think is wrong, and your source if you have one."
+    },
+    {
+     "title": "What we do",
+     "text": "We review it. If we were wrong we edit the caption, pin a correction on the post itself, or remove the video if needed."
+    },
+    {
+     "title": "When we reply",
+     "text": "We try to reply within 24 hours, God willing."
+    }
+   ],
+   "log": {
+    "title": "Corrections log",
+    "empty": "We have not logged any correction so far. We will add each correction here with its date.",
+    "items": []
+   },
+   "faces": {
+    "title": "Faces and children",
+    "text": "We respect anyone who does not want to appear, we seek the parents' consent whenever possible, and we immediately delete any clip its owner asks us to delete."
+   }
+  },
+  "press": {
+   "meta": {
+    "title": "Press | Marsa Team",
+    "description": "For the press: a short bio of Marsa Team, quick facts, logo files for reference, and the rule that our material is used only with the team's permission."
+   },
+   "title": "Press",
+   "intro": "What a journalist needs to introduce the team: a bio and facts, then one clear rule: our logo and our videos are used only with the team's permission.",
+   "about": {
+    "title": "Short bio",
+    "short": "Marsa Team is a small civilian volunteer team from northern Gaza that documents daily life in short videos with Arabic and English captions. We are currently working on licensing the team.",
+    "long_title": "Longer bio",
+    "long": "Marsa Team began in October 2026, started by friends from northern Gaza who saw that much of what happens around them reaches the world incomplete or without context. The team publishes short videos about water, flour, aid, rubble and winter. It writes what it saw itself, attributes what it did not see to whoever said it, and corrects in public when it is wrong. The team belongs to no political party, and does not publish its members' names, to protect their safety. We are currently working on licensing the team."
+   },
+   "facts_title": "Quick facts",
+   "facts": [
+    {
+     "k": "Name",
+     "v": "Marsa Team | فريق مرسى الخير"
+    },
+    {
+     "k": "Place",
+     "v": "Northern Gaza"
+    },
+    {
+     "k": "Type",
+     "v": "Small civilian volunteer team"
+    },
+    {
+     "k": "Started",
+     "v": "October 2026"
+    },
+    {
+     "k": "Content",
+     "v": "Short videos with Arabic and English captions"
+    },
+    {
+     "k": "Accounts",
+     "v": "@marsa_team on Instagram, TikTok and Facebook"
+    }
+   ],
+   "rules": {
+    "title": "Usage rule",
+    "text": "No one may use our videos or our logo without the team's permission. Contact us first, and use nothing from either before we agree.",
+    "items": [
+     "This covers any video, clip or cover image from us, and any use of the logo or the name, in any outlet or platform.",
+     "The logo files below are for reference and for identifying the team only, and they fall under the same rule: no use before we agree.",
+     "If permission is given: do not recolour or stretch the logo, add effects, and leave clear space around it.",
+     "We offer no video pack for download. Share the original link and credit \"Marsa Team | فريق مرسى الخير\".",
+     "Do not attribute to us what we did not publish, and do not use our name to imply an endorsement."
+    ]
+   },
+   "assets_title": "Logo files (for reference)",
+   "assets": [
+    {
+     "title": "Logo pack (ZIP)",
+     "text": "The logo files below plus the usage-rule file. It contains no video."
+    },
+    {
+     "title": "Logo (icon, SVG)",
+     "text": "For reference and to identify the team, after our permission."
+    },
+    {
+     "title": "Horizontal logo, Arabic (SVG)",
+     "text": "Icon with the team name in Arabic."
+    },
+    {
+     "title": "Horizontal logo, English (SVG)",
+     "text": "Icon with the team name in English."
+    },
+    {
+     "title": "Stacked logo (SVG)",
+     "text": "Icon above the name."
+    },
+    {
+     "title": "Icon (PNG)",
+     "text": "1024 pixels."
+    }
+   ],
+   "contact": {
+    "title": "Media enquiries",
+    "text": "Email us with your outlet, the subject of your question and what you want to use, and wait for our agreement before any use. We try to reply within 24 hours, God willing, though we are sometimes delayed by power and internet cuts. Other ways to reach us are on the contact page."
    }
   },
   "faq": {
    "meta": {
     "title": "FAQ | Marsa Team",
-    "description": "Who we are, licensing, support and rights: straight answers from Marsa Team."
+    "description": "Who we are, licensing, donating and rights: straight answers from Marsa Team, a volunteer documentation team from Gaza."
    },
    "title": "FAQ",
    "items": [
@@ -226,20 +451,24 @@
      "a": "A small volunteer team of friends from northern Gaza. We document daily life in short videos. We do not publish our members' names, to protect their safety and privacy."
     },
     {
-     "q": "Are you registered?",
-     "a": "We are currently working on licensing the team."
+     "q": "Is the team licensed?",
+     "a": "Currently working on licensing the team."
     },
     {
      "q": "Can I donate?",
-     "a": "Ways to support are being arranged; we will announce them when ready. To talk about supporting us, email marsa.team1@gmail.com or write to us on any of our pages."
+     "a": "Yes. To support the team or donate, contact us directly by email at marsa.team1@gmail.com or on WhatsApp (the number is on the Support page) and we will reply with the details. We only communicate through our official channels; anyone asking for money in our name any other way is not us."
     },
     {
      "q": "Do you belong to a political party or group?",
-     "a": "No. We are a small civilian team aiming for documentation and accurate information."
+     "a": "No. We do not belong to any political party or group. We are a small civilian team aiming for documentation and accurate information."
     },
     {
      "q": "Can I use your footage?",
      "a": "All rights reserved to the team; to use our material, please contact us."
+    },
+    {
+     "q": "How can I tell a message or account is really from you?",
+     "a": "Our official channels are this site, our email marsa.team1@gmail.com, the WhatsApp number on the Support and Contact pages, and our @marsa_team accounts. If anyone asks for money in our name through any other channel, it is not us: please tell us."
     }
    ]
   },
@@ -253,13 +482,13 @@
    "expect_title": "What a partner can expect",
    "expect": [
     "Plain talk about our situation: we are a volunteer team looking for guidance and partnership. We are currently working on licensing the team.",
-    "Written documentation for everything we publish, with sources, shared with you on request.",
+    "On request, we share the sources we hold for what we publish.",
     "No promises about scale or speed. We tell you what we can really do.",
     "We never use your name or logo in public without your written consent."
    ],
    "response": {
     "title": "About reply times",
-    "text": "We are a small team, and power and internet sometimes go down on our side. We reply within 24 hours for now, and if we are late, we apologise in advance."
+    "text": "We are a small team, and power and internet sometimes go down on our side. We try to reply within 24 hours for now, God willing, and if we are late, we apologise in advance."
    },
    "what_to_send": "In your message, tell us who you are, what kind of partnership you have in mind, and what you expect from us."
   },
@@ -285,7 +514,11 @@
     },
     {
      "title": "Links to other sites",
-     "text": "The links to Instagram, TikTok, Facebook and WhatsApp open other services, which run under their own policies."
+     "text": "The links to Instagram, TikTok, Facebook, WhatsApp and YouTube open other services, which run under their own policies."
+    },
+    {
+     "title": "Embedded YouTube video",
+     "text": "The Support page has a YouTube video that loads only if you press play. Before that, your browser does not contact YouTube. After you press play, a Google service loads under its own policy and may store data on your device."
     },
     {
      "title": "If you write to us",
@@ -304,18 +537,18 @@
   "terms": {
    "meta": {
     "title": "Terms and disclaimer | Marsa Team",
-    "description": "Terms for using the Marsa Team site: rights, accuracy, no donations collected, and how to ask for a clip to be removed or report an infringement."
+    "description": "Terms for using the Marsa Team site: rights, accuracy, support and direct contact, and how to ask for a clip to be removed or report an infringement."
    },
    "title": "Terms and disclaimer",
    "intro": "This is the team's own policy, written in plain words. It is not legal advice. Last updated: November 2026.",
    "sections": [
     {
      "title": "What this site is",
-     "text": "An introduction to Marsa Team, a small volunteer team from northern Gaza. We sell nothing through the site and accept no payments. We are currently working on licensing the team."
+     "text": "An introduction to Marsa Team, a small volunteer team from northern Gaza. We sell nothing through the site. We are currently working on licensing the team."
     },
     {
      "title": "Rights and reuse",
-     "text": "All rights reserved to the team; to use our material, please contact us. If you share one of our videos, share the original link instead of re-uploading it, and credit \"Marsa Team\"."
+     "text": "All rights reserved to the team; to use our material, please contact us. If you share one of our videos, share the original link instead of re-uploading it, and credit \"Marsa Team (فريق مرسى الخير)\"."
     },
     {
      "title": "Accuracy and disclaimer",
@@ -326,8 +559,8 @@
      "text": "We do not belong to any political party or group. We are a small civilian team aiming for documentation and accurate information."
     },
     {
-     "title": "No donations through the site",
-     "text": "We do not collect donations through this site, and it has no link, account or number for sending money. If anyone asks for money in our name, it is not us: please tell us by email."
+     "title": "Support and donating",
+     "text": "This site has no payment links. To support the team or donate, contact us directly by email or WhatsApp (details on the Support page) and we will reply. If anyone asks for money in our name through a channel that is not one of our official channels, it is not us: please tell us by email."
     },
     {
      "title": "External links",
@@ -352,7 +585,7 @@
  "x": {
   "skip": "Skip to content",
   "theme": "Theme",
-  "main_nav": "Main",
+  "main_nav": "Main navigation",
   "latest": "Latest work",
   "all_videos": "All videos",
   "email": "Email",
@@ -360,11 +593,34 @@
   "copied": "Copied",
   "badge_note": "The buttons open our profile on each platform, not the post itself.",
   "nf_title": "Page not found",
-  "nf_text": "The link may have changed. Go back home.",
-  "noscript": "This site needs JavaScript to show its text.",
+  "nf_text": "The link may have changed or been mistyped. You can go back home or watch the videos.",
+  "noscript": "The theme button needs JavaScript; everything else works as is.",
   "whatsapp": "WhatsApp",
   "unpublished": "Not published yet",
   "q_label": "Question",
+  "related": "Related pages",
+  "crumbs": "Breadcrumb",
+  "nf_en": "Page not found. Go to the English home page.",
+  "nav": [
+   "home",
+   "story",
+   "work",
+   "videos",
+   "support",
+   "join",
+   "contact"
+  ],
+  "foot": [
+   "videos",
+   "support",
+   "join",
+   "trust",
+   "press",
+   "faq",
+   "contact",
+   "privacy",
+   "terms"
+  ],
   "videos": [
    {
     "cover": "poster_water.jpg",
@@ -426,6 +682,44 @@
     "platforms": [],
     "w": 720,
     "h": 847
+   }
+  ],
+  "appeal": {
+   "id": "DvGUYbvJSZU",
+   "poster": "poster_appeal.webp",
+   "w": 960,
+   "h": 540
+  },
+  "press": [
+   {
+    "file": "press/marsa-team-logo-pack.zip",
+    "ext": "zip",
+    "kb": 61
+   },
+   {
+    "file": "img/logo_icon.svg",
+    "ext": "svg",
+    "kb": 1
+   },
+   {
+    "file": "img/logo_lockup_ar.svg",
+    "ext": "svg",
+    "kb": 10
+   },
+   {
+    "file": "img/logo_lockup_en.svg",
+    "ext": "svg",
+    "kb": 4
+   },
+   {
+    "file": "press/logo_stacked.svg",
+    "ext": "svg",
+    "kb": 10
+   },
+   {
+    "file": "press/logo_icon_1024.png",
+    "ext": "png",
+    "kb": 53
    }
   ]
  }

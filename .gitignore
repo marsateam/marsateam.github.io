@@ -1,5 +1,6 @@
 # Builder / internal files: never public
 site_build.py
+make_poster.py
 decisions-left-out.json
 README-site.html
 # Footage and secrets: never public
